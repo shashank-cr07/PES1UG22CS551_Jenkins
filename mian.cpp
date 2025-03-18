@@ -1,5 +1,6 @@
 #include <iostream.h>
-using namespace std;
-void main(){
-    cout<<"CHAMOLE THE GREEK GOD OF ROME\n";
+
+int main(){
+    std::cout<<"CHAMOLE THE GREEK GOD OF ROME"<<std::endl;
+    return 0;
 }
