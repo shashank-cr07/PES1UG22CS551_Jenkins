@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                build 'PES1UG22CS551-1'
+                build 'PES1UG22CS551'
                 sh 'g++ mian.cpp -o output'
             }
         }
